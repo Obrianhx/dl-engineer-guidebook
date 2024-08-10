@@ -1,12 +1,12 @@
 site_name: 深度学习工程师生存指南
 site_description: 深度学习工程师生存指南
-site_author: 杨培文
-copyright: 杨培文
-site_url: https://dl.ypw.io
-repo_url: https://github.com/ypwhs/dl-engineer-guidebook
-repo_name: ypwhs/dl-engineer-guidebook
-edit_uri: edit/master/docs
-remote_name: https://github.com/ypwhs/dl-engineer-guidebook
+# site_author: 杨培文
+# copyright: 杨培文
+# site_url: https://dl.ypw.io
+# repo_url: https://github.com/ypwhs/dl-engineer-guidebook
+# repo_name: ypwhs/dl-engineer-guidebook
+# edit_uri: edit/master/docs
+# remote_name: https://github.com/ypwhs/dl-engineer-guidebook
 remote_branch: site
 theme:
   name: 'material'
@@ -49,15 +49,15 @@ extra:
   analytics:
     provider: google
     property: 'UA-111276663-2'
-  social:
-    - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/ypwhs'
-    - icon: 'fontawesome/brands/zhihu'
-      link: 'https://www.zhihu.com/people/yangpw'
-    - icon: 'fontawesome/solid/blog'
-      link: 'https://ypw.io'
-    - icon: 'fontawesome/brands/linkedin'
-      link: 'https://www.linkedin.com/in/ypwhs/'
+  # social:
+  #   - icon: 'fontawesome/brands/github'
+  #     link: 'https://github.com/ypwhs'
+  #   - icon: 'fontawesome/brands/zhihu'
+  #     link: 'https://www.zhihu.com/people/yangpw'
+  #   - icon: 'fontawesome/solid/blog'
+  #     link: 'https://ypw.io'
+  #   - icon: 'fontawesome/brands/linkedin'
+  #     link: 'https://www.linkedin.com/in/ypwhs/'
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -88,9 +88,15 @@ nav:
     - 常用 CV 数据集: cv-dataset.md
     - 在 ImageNet 上表现出色的经典模型: best-models-on-imagenet.md
     - 检测模型: detection-models.md
-  - 硬件:
+  - 服务器配置:
     - 如何配置一台深度学习工作站?: how-to-build-deep-learning-workstation.md
     - Windows、Ubuntu 还是 macOS？: windows-linux-or-macos.md
+  - 计算机硬件:
+    - CPU: computer-hardware-CPU.md
+    - 硬盘: computer-hardware-HDD.md
+    - 内存: computer-hardware-Memory.md
+    - 显卡: computer-hardware-GPU.md
+    - 主板: computer-hardware-Mainboard.md
   - Mac:
     - Mac 对比: mac-compare.md
     - macOS 软件: macos-software.md
